@@ -13,7 +13,7 @@ class Edition{
 	public static function fromId($id){
 		$edition = new Edition();
 		$answer = Data::get('SELECT * FROM editions WHERE id = ?;', [$id]);
-		if(!empty($answer))
+		if(empty($answer))
 			return null;
 		foreach($answer as $row):
 			$edition->id = $id;
@@ -28,7 +28,7 @@ class Edition{
 	
 	public static function fromInfo($title, $vol, $no){
 		$answer = Data::get('SELECT id FROM editions WHERE title = ? AND vol = ? AND edition = ?;', [$title, $vol, $no]);
-		if(!empty($answer))
+		if(empty($answer))
 			return null;
 		$id = $answer['id']; /* ??? */
 		return Edition::fromId($id);
