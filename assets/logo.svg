@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="500" width="500" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 500.00001 500.00001">
+ <g id="layer1" transform="translate(0 -552.36)">
+  <ellipse id="ellipse4172" rx="87.5" ry="75" transform="scale(-1,1)" cy="889.86" cx="-337.5" fill="#1a1a1a"/>
+  <g fill-rule="evenodd">
+   <path id="path4136" d="m75 789.86h350l-25-200-150-37.5-150 37.5z" fill="#6c6753"/>
+   <path id="path4159" fill="#1a1a1a" d="m250 677.36-163.2 18.14-11.8 94.36h350l-11.79-94.36-163.21-18.14z"/>
+   <path id="path4138" d="m0 789.86 25-25 225-25 225 25 25 25z" fill="#6c6753"/>
+  </g>
+  <g>
+   <ellipse id="path4145" rx="87.5" ry="75" cy="889.86" cx="162.5"/>
+   <rect id="rect4180" height="75" width="87.5" y="814.86" x="162.5"/>
+   <path id="path4194" d="m75 789.86h175v-237.5l-150 37.5z" fill-rule="evenodd" fill="#484537"/>
+  </g>
+  <path id="path4192" d="m250 677.36-163.2 18.14-11.8 94.36h175z" fill-rule="evenodd"/>
+  <g>
+   <path id="path4190" d="m0 789.86 25-25 225-25v50z" fill-rule="evenodd" fill="#484537"/>
+   <rect id="rect4196" height="75" width="87.5" y="814.86" x="250" fill="#1a1a1a"/>
+   <ellipse id="path4151" rx="50" ry="37.5" cy="889.86" cx="162.5" fill="#fff"/>
+   <ellipse id="ellipse4182" rx="50" ry="37.5" cy="889.86" cx="337.5" fill="#fff"/>
+  </g>
+ </g>
+</svg>
