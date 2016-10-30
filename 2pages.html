@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eisner</title>
+		<link href="2pages.css" rel="stylesheet" />
+		<link href="2pages.theme.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="eisner">
+			<div class="page page-left" v-on:click="previous()">
+				<img v-bind:src="to_url(page)" v-if="page > 0 && page <= max_page" />
+			</div>
+			<div class="page page-right" v-on:click="next()">
+				<img v-bind:src="to_url(page + 1)" v-if="page + 1 <= max_page" />
+			</div>
+			<footer>
+				<div>
+					<progress v-bind:value="current_page" v-bind:max="max_page"></progress>
+					{{current_page}}/{{max_page}}				
+				</div>
+			</footer>
+		</div>
+		<script src="vue.js"></script>
+		<script src="2pages.js"></script>
+	</body>
+</html>

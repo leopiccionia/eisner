@@ -1,0 +1,48 @@
+body{
+	color: #CCC;
+	background-color: #111;
+	font-family: 'OCR A Std';
+	overflow: hidden;
+}
+
+footer{
+	position: absolute;
+	top: calc(100% - 50px);
+	left: 0;				
+	height: 50px;
+	width: 100%;
+}
+
+footer div{
+	visibility: hidden;
+	background-color: #000;
+	width: 100%;
+	padding: 20px;
+}
+
+footer:hover div{
+	visibility: visible;
+}
+
+/** PROGRESS BAR **/
+progress{
+	-webkit-appearance: none !important;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+	vertical-align: medium;
+	background-color: #111;
+	color: Crimson; /* IE only */
+}
+
+progress::-webkit-progress-bar{
+	background-color: #111;
+}
+
+progress::-webkit-progress-value{
+	background-color: Crimson;
+}
+
+progress::-moz-progress-bar{
+	background-color: Crimson;
+}
