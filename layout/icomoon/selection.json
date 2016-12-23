@@ -1,0 +1,169 @@
+{
+  "IcoMoonType": "selection",
+  "icons": [
+    {
+      "icon": {
+        "paths": [
+          "M362.625 608c-82.439 0.041-149.25 57.333-149.25 128s66.811 127.959 149.245 128c0.017 0 0.032 0 0.046 0 82.475 0 149.333-57.308 149.333-128-0 70.692 66.859 128 149.333 128 0.015 0 0.029-0 0.044-0 82.436-0.041 149.248-57.333 149.248-128 0-0-0-0-0-0 0-70.667-66.811-127.959-149.245-128l-298.755-0zM362.625 672c0.012-0 0.027-0 0.042-0 47.128 0 85.333 28.654 85.333 64s-38.205 64-85.333 64c-0.015 0-0.029-0-0.044-0-47.090-0.036-85.248-28.676-85.248-64 0-0 0-0 0-0-0-35.324 38.158-63.964 85.246-64zM661.375 672c47.092 0.036 85.25 28.676 85.25 64s-38.158 63.964-85.246 64c-0.017 0-0.031 0-0.046 0-47.128 0-85.333-28.654-85.333-64s38.205-64 85.333-64c0.015 0 0.029 0 0.044 0z",
+          "M512 160l-256 64-22.5 180.375 278.5-31 278.5 31-22.5-180.375-256-64z",
+          "M85.333 565.374l42.667-42.667 384-42.667 384 42.667 42.667 42.667z"
+        ],
+        "attrs": [
+          {},
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "eisner"
+        ]
+      },
+      "attrs": [
+        {},
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 3,
+        "id": 3,
+        "name": "eisner",
+        "prevSize": 32,
+        "code": 59648
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 0
+    },
+    {
+      "icon": {
+        "paths": [
+          "M240 160v704h544v-704h-544zM304 224h416v576h-416v-576z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "one-page"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 2,
+        "id": 2,
+        "name": "1page",
+        "prevSize": 32,
+        "code": 59649
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 1
+    },
+    {
+      "icon": {
+        "paths": [
+          "M96 544v384h384v-384h-384zM160 608h256v256h-256v-256z",
+          "M96 96v384h384v-384h-384zM160 160h256v256h-256v-256z",
+          "M544 544v384h384v-384h-384zM608 608h256v256h-256v-256z",
+          "M544 96v384h384v-384h-384zM608 160h256v256h-256v-256z"
+        ],
+        "attrs": [
+          {},
+          {},
+          {},
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "thumbnails"
+        ]
+      },
+      "attrs": [
+        {},
+        {},
+        {},
+        {}
+      ],
+      "properties": {
+        "order": 4,
+        "id": 1,
+        "name": "thumbs",
+        "prevSize": 32,
+        "code": 59650
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 2
+    },
+    {
+      "icon": {
+        "paths": [
+          "M0 160v704h1024v-704h-1024zM64 224h416v576h-416v-576zM544 224h416v576h-416v-576z"
+        ],
+        "attrs": [
+          {}
+        ],
+        "isMulticolor": false,
+        "isMulticolor2": false,
+        "grid": 0,
+        "tags": [
+          "two-page"
+        ]
+      },
+      "attrs": [
+        {}
+      ],
+      "properties": {
+        "order": 5,
+        "id": 0,
+        "name": "2pages",
+        "prevSize": 32,
+        "code": 59651
+      },
+      "setIdx": 0,
+      "setId": 2,
+      "iconIdx": 3
+    }
+  ],
+  "height": 1024,
+  "metadata": {
+    "name": "icomoon"
+  },
+  "preferences": {
+    "showGlyphs": true,
+    "showQuickUse": true,
+    "showQuickUse2": true,
+    "showSVGs": true,
+    "fontPref": {
+      "prefix": "icon-",
+      "metadata": {
+        "fontFamily": "icomoon"
+      },
+      "metrics": {
+        "emSize": 1024,
+        "baseline": 6.25,
+        "whitespace": 50
+      },
+      "embed": false
+    },
+    "imagePref": {
+      "prefix": "icon-",
+      "png": true,
+      "useClassSelector": true,
+      "color": 0,
+      "bgColor": 16777215,
+      "classSelector": ".icon"
+    },
+    "historySize": 100,
+    "showCodes": true,
+    "gridSize": 16
+  }
+}

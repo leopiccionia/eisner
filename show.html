@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Eisner</title>
+		<link href="layout/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<link href="layout/favicon.ico" rel="icon" type="image/x-icon">
+		<link href="layout/base.css" rel="stylesheet" />
+		<link href="layout/theme.css" rel="stylesheet" />
+		<link href="layout/thumbs.css" rel="stylesheet" />
+		<link href="layout/icomoon/style.css" rel="stylesheet" />
+	</head>
+	<body>
+		<div id="eisner">
+			<div class="thumbs-gallery" v-show="thumbs_shown">
+				<span v-for="n in max_page">
+						<img class="thumbnail" v-bind:title="n" v-bind:alt="n" v-bind:src="to_url(n)" v-on:click="goto_page(n)" />
+				</span>
+			</div>
+			<div class="page single-page" v-show="mode == 'single' && !thumbs_shown">
+				<img v-bind:src="to_url(page)" v-on:click="next()" />
+			</div>
+			<div v-show="mode == 'double' && !thumbs_shown">
+				<div class="page page-left" v-on:click="previous()">
+					<img v-bind:src="to_url(page)" v-if="page > 0 && page <= max_page" />
+				</div>
+				<div class="page page-right" v-on:click="next()">
+					<img v-bind:src="to_url(page + 1)" v-if="page + 1 <= max_page" />
+				</div>
+			</div>
+			<footer>
+				<div>
+					<span class="icon-eisner"></span>
+					<span class="icon-1page" v-on:click="single_page()"></span>
+					<span class="icon-2pages" v-on:click="double_page()"></span>
+					<span class="icon-thumbs" v-on:click="thumbs()"></span>
+					<progress v-bind:value="current_page" v-bind:max="max_page"></progress>
+					{{current_page}}/{{max_page}}
+				</div>
+			</footer>
+		</div>
+		<script src="script/vue.js"></script>
+		<script src="script/show.js"></script>
+	</body>
+</html>

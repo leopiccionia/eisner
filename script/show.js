@@ -3,41 +3,66 @@ var eisner = new Vue({
 	data: {
 		title: 'Baseball Comics',
 		edition: 1,
-		page: 0,
+		page: 1,
 		max_page: 32,
+		mode: 'single',
 		thumbs_shown: false
 	},
 	computed: {
 		current_page: function(n){
-			return Math.min(this.page + 1, this.max_page)
+			if(this.mode == 'double')
+				return Math.max(this.page, 1)
+			return this.page
 		}
 	},
 	methods: {
+		/* NAVIGATION */
 		first: function(){
-			this.page = 0
+			if(this.mode == 'double')
+				this.page = 0
+			else
+				this.page = 1
 		},
 		last: function(){
-			if(this.max_page % 2 == 0)
-				this.page = this.max_page
-			else
+			if(this.mode == 'double' && this.max_page % 2 == 1)
 				this.page = this.max_page - 1
+			else
+				this.page = this.max_page
 		},
 		previous: function(){
-			this.page = Math.max(this.page - 2, 0)
+			if(this.mode == 'double')
+				this.page = Math.max(this.page - 2, 0)
+			else
+				this.page = Math.max(this.page - 1, 1)
 		},
 		next: function(){
-			this.page = Math.min(this.page + 2, this.max_page)
+			if(this.mode == 'double')
+				this.page = Math.min(this.page + 2, this.max_page)
+			else
+				this.page = Math.min(this.page + 1, this.max_page)
 		},
 		goto_page: function(n){
-			if(n % 2 == 1)
-				this.page = n - 1;
+			if(this.mode == 'double' & n % 2 == 1)
+				this.page = n - 1
 			else
-				this.page = n;
-			this.thumbs_shown = false;
+				this.page = n
+			this.thumbs_shown = false
+		},
+		/* VIEW MODE */
+		single_page: function(){
+			this.mode = 'single'
+			if(this.page == 0)
+				this.page = 1
+		},
+		double_page: function(){
+			this.mode = 'double'
+			if(this.page %2 == 1)
+				this.page -= 1
 		},
 		thumbs: function(){
-			this.thumbs_shown = !(this.thumbs_shown);
+			this.thumbs_shown = !(this.thumbs_shown)
 		},
+		/* UTILS */
 		to_url: function(n){
 			if(n < 10)
 				n = '0' + n

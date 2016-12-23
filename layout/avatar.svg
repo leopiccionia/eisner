@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   viewBox="0 0 600.00001 600.00001"
+   version="1.1"
+   width="600"
+   height="600"
+   id="svg2">
+  <metadata
+     id="metadata27">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs25" />
+  <g
+     transform="translate(0 -452.36)"
+     id="layer1">
+    <rect
+       fill="#fff"
+       x="0"
+       y="452.36"
+       width="600"
+       height="600"
+       id="rect3345" />
+    <ellipse
+       fill="#1a1a1a"
+       cx="-387.5"
+       cy="839.86"
+       transform="scale(-1,1)"
+       ry="75"
+       rx="87.5"
+       id="ellipse4172" />
+    <g
+       fill-rule="evenodd"
+       id="g6">
+      <path
+         fill="#6c6753"
+         d="m125 739.86h350l-25-200-150-37.5-150 37.5z"
+         id="path4136" />
+      <path
+         fill="#1a1a1a"
+         d="m300 627.36-163.21 18.14-11.79 94.36h350l-11.79-94.36-163.21-18.14z"
+         id="path4159" />
+      <path
+         fill="#6c6753"
+         d="m50 739.86 25-25 225-25 225 25 25 25z"
+         id="path4138" />
+    </g>
+    <g
+       id="g11">
+      <ellipse
+         cx="212.5"
+         cy="839.86"
+         ry="75"
+         rx="87.5"
+         id="path4145" />
+      <rect
+         x="212.5"
+         y="764.86"
+         width="87.5"
+         height="75"
+         id="rect4180" />
+      <path
+         fill="#484537"
+         fill-rule="evenodd"
+         d="m125 739.86h175v-237.5l-150 37.5z"
+         id="path4194" />
+    </g>
+    <path
+       fill-rule="evenodd"
+       d="m300 627.36-163.21 18.14-11.79 94.36h175z"
+       id="path4192" />
+    <g
+       id="g17">
+      <path
+         fill="#484537"
+         fill-rule="evenodd"
+         d="m50 739.86 25-25 225-25v50z"
+         id="path4190" />
+      <rect
+         fill="#1a1a1a"
+         x="300"
+         y="764.86"
+         width="87.5"
+         height="75"
+         id="rect4196" />
+      <ellipse
+         fill="#fff"
+         cx="212.5"
+         cy="839.86"
+         ry="37.5"
+         rx="50"
+         id="path4151" />
+      <ellipse
+         fill="#fff"
+         cx="387.5"
+         cy="839.86"
+         ry="37.5"
+         rx="50"
+         id="ellipse4182" />
+    </g>
+  </g>
+</svg>

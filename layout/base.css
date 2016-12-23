@@ -1,0 +1,40 @@
+.page{
+	position: absolute;
+	top: 0;
+}
+
+.page img{
+	height: 100%;
+}
+
+.single-page{
+	width: 100%;
+	text-align: center;
+}
+
+.page-left, .page-right{
+	width: 50%;
+	height: 100%;
+}
+
+.page-left{
+	left: 0;
+	text-align: right;
+}
+
+.page-right{
+	left: 50%;
+	text-align: left;
+}
+
+.thumbs-gallery{
+	position: absolute;
+	left: 5%;
+	top: 5%;
+	width: 90%;
+	text-align: center;
+}
+
+.thumbnail{
+	display: inline;
+}

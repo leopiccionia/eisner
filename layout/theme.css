@@ -1,7 +1,8 @@
 body{
 	color: #CCC;
 	background-color: #111;
-	font-family: 'OCR A Std', mono;
+	font-family: monospace;
+	font-size: large;
 	overflow-x: hidden;
 }
 
@@ -22,13 +23,6 @@ footer div{
 
 footer:hover div{
 	visibility: visible;
-}
-
-footer button{
-	background-color: transparent;
-	color: #CCC;
-	font-family: 'OCR A Std', mono;
-	border: 2px solid #111;
 }
 
 /** THUMBNAILS GALLERY **/
