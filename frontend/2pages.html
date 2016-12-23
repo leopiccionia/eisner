@@ -2,25 +2,33 @@
 <html>
 	<head>
 		<title>Eisner</title>
-		<link href="2pages.css" rel="stylesheet" />
-		<link href="2pages.theme.css" rel="stylesheet" />
+		<link href="layout/2pages.css" rel="stylesheet" />
+		<link href="layout/2pages.theme.css" rel="stylesheet" />
+		<link href="layout/thumbs.css" rel="stylesheet" />
+		<link href="layout/font-awesome/css/font-awesome.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="eisner">
-			<div class="page page-left" v-on:click="previous()">
+			<div class="thumbs-gallery" v-show="thumbs_shown">
+				<span v-for="n in max_page">
+						<img class="thumbnail" v-bind:title="n" v-bind:alt="n" v-bind:src="to_url(n)" v-on:click="goto_page(n)" />
+				</span>
+			</div>
+			<div class="page page-left" v-on:click="previous()" v-show="!thumbs_shown">
 				<img v-bind:src="to_url(page)" v-if="page > 0 && page <= max_page" />
 			</div>
-			<div class="page page-right" v-on:click="next()">
+			<div class="page page-right" v-on:click="next()" v-show="!thumbs_shown">
 				<img v-bind:src="to_url(page + 1)" v-if="page + 1 <= max_page" />
 			</div>
 			<footer>
 				<div>
 					<progress v-bind:value="current_page" v-bind:max="max_page"></progress>
-					{{current_page}}/{{max_page}}				
+					{{current_page}}/{{max_page}}
+					<i class="fa fa-th-large" v-on:click="thumbs()"></i>			
 				</div>
 			</footer>
 		</div>
-		<script src="vue.js"></script>
-		<script src="2pages.js"></script>
+		<script src="script/vue.js"></script>
+		<script src="script/2pages.js"></script>
 	</body>
 </html>

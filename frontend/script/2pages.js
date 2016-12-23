@@ -4,7 +4,8 @@ var eisner = new Vue({
 		title: 'Baseball Comics',
 		edition: 1,
 		page: 0,
-		max_page: 32
+		max_page: 32,
+		thumbs_shown: false
 	},
 	computed: {
 		current_page: function(n){
@@ -26,6 +27,16 @@ var eisner = new Vue({
 		},
 		next: function(){
 			this.page = Math.min(this.page + 2, this.max_page)
+		},
+		goto_page: function(n){
+			if(n % 2 == 1)
+				this.page = n - 1;
+			else
+				this.page = n;
+			this.thumbs_shown = false;
+		},
+		thumbs: function(){
+			this.thumbs_shown = !(this.thumbs_shown);
 		},
 		to_url: function(n){
 			if(n < 10)

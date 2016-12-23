@@ -2,22 +2,30 @@
 <html>
 	<head>
 		<title>Eisner</title>
-		<link href="1page.css" rel="stylesheet" />
-		<link href="1page.theme.css" rel="stylesheet" />
+		<link href="layout/1page.css" rel="stylesheet" />
+		<link href="layout/1page.theme.css" rel="stylesheet" />
+		<link href="layout/thumbs.css" rel="stylesheet" />
+		<link href="layout/font-awesome/css/font-awesome.css" rel="stylesheet" />
 	</head>
 	<body>
 		<div id="eisner">
-			<div class="page">
+			<div class="thumbs-gallery" v-show="thumbs_shown">
+				<span v-for="n in max_page">
+						<img class="thumbnail" v-bind:title="n" v-bind:alt="n" v-bind:src="to_url(n)" v-on:click="goto_page(n)" />
+				</span>
+			</div>
+			<div class="page" v-show="!thumbs_shown">
 				<img v-bind:src="to_url(page)" v-on:click="next()" />
 			</div>
 			<footer>
 				<div>
 					<progress v-bind:value="page" v-bind:max="max_page"></progress>
 					{{page}}/{{max_page}}
+					<i class="fa fa-th-large" v-on:click="thumbs()"></i>
 				</div>
 			</footer>
 		</div>
-		<script src="vue.js"></script>
-		<script src="1page.js"></script>
+		<script src="script/vue.js"></script>
+		<script src="script/1page.js"></script>
 	</body>
 </html>

@@ -1,12 +1,12 @@
 body{
 	color: #CCC;
 	background-color: #111;
-	font-family: 'OCR A Std';
-	overflow: hidden;
+	font-family: 'OCR A Std', mono;
+	overflow-x: hidden;
 }
 
 footer{
-	position: absolute;
+	position: fixed;
 	top: calc(100% - 50px);
 	left: 0;				
 	height: 50px;
@@ -22,6 +22,21 @@ footer div{
 
 footer:hover div{
 	visibility: visible;
+}
+
+footer button{
+	background-color: transparent;
+	color: #CCC;
+	font-family: 'OCR A Std', mono;
+	border: 2px solid #111;
+}
+
+/** THUMBNAILS GALLERY **/
+.thumbnail{
+	margin: 10px;
+	width: 100px;
+	text-align: center;
+	vertical-align: middle;
 }
 
 /** PROGRESS BAR **/
@@ -45,4 +60,18 @@ progress::-webkit-progress-value{
 
 progress::-moz-progress-bar{
 	background-color: Crimson;
+}
+
+/** SCROLLBAR **/
+body::-webkit-scrollbar{
+	width: 10px;
+}
+
+body::-webkit-scrollbar-track{
+	background: transparent;
+}
+
+body::-webkit-scrollbar-thumb{
+	background: #333;
+	border-radius: 10px;
 }
