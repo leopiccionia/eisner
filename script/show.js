@@ -51,11 +51,13 @@ var eisner = new Vue({
 		/* VIEW MODE */
 		single_page: function(){
 			this.mode = 'single'
+			this.thumbs_shown = false
 			if(this.page == 0)
 				this.page = 1
 		},
 		double_page: function(){
 			this.mode = 'double'
+			this.thumbs_shown = false
 			if(this.page %2 == 1)
 				this.page -= 1
 		},
