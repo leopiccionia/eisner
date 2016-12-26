@@ -66,7 +66,7 @@ var eisner = new Vue({
 		to_url: function(n){
 			if(n < 10)
 				n = '0' + n
-			return 'img/baseball-comics-001/' + n + '.jpg'
+			return 'img/baseball-comics-001/' + n + '.png'
 		}
 	},
 	created: function(){
