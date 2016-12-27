@@ -27,6 +27,15 @@
 	text-align: left;
 }
 
+.continuous{
+	text-align: center;
+	width: 100%;
+}
+
+.continuous img{
+	max-width: 100%;
+}
+
 .thumbs-gallery{
 	position: absolute;
 	left: 5%;

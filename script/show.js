@@ -18,6 +18,8 @@ var eisner = new Vue({
 	methods: {
 		/* NAVIGATION */
 		first: function(){
+			if(this.mode == 'continuous')
+				noop()
 			if(this.mode == 'double')
 				this.page = 0
 			else
@@ -61,6 +63,10 @@ var eisner = new Vue({
 			if(this.page %2 == 1)
 				this.page -= 1
 		},
+		continuous: function(){
+			this.mode = 'continuous'
+			this.thumbs_shown = false
+		},
 		thumbs: function(){
 			this.thumbs_shown = !(this.thumbs_shown)
 		},
@@ -73,10 +79,12 @@ var eisner = new Vue({
 	},
 	created: function(){
 		window.addEventListener('keydown', function(e){
+			if(eisner.mode == 'continuous')
+				return
 			var key = e.which || e.keyCode
 			switch(key){
 				case 33: // [PgUp]
-				case 37: // [<-]
+				case 37: // [<-]					
 					eisner.previous()
 					e.preventDefault()
 					break

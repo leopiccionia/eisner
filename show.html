@@ -27,11 +27,17 @@
 					<img v-bind:src="to_url(page + 1)" v-if="page + 1 <= max_page" />
 				</div>
 			</div>
+			<div class="continuous" v-show="mode == 'continuous' && !thumbs_shown">
+				<p v-for="n in max_page">
+					<img v-bind:alt="n" v-bind:src="to_url(n)">
+				</p>
+			</div>
 			<footer>
 				<div>
 					<span class="icon-eisner"></span>
 					<span class="icon-1page" v-on:click="single_page()"></span>
 					<span class="icon-2pages" v-on:click="double_page()"></span>
+					<span v-on:click="continuous()">Continuous</span>
 					<span class="icon-thumbs" v-on:click="thumbs()"></span>
 					<progress v-bind:value="current_page" v-bind:max="max_page"></progress>
 					{{current_page}}/{{max_page}}
