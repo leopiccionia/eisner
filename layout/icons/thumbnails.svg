@@ -1,63 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="16"
-   height="16"
-   viewBox="0 0 16 16"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="thumbnails1.svg">
-  <defs
-     id="defs4" />
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="33.625"
-     inkscape:cx="0.014869963"
-     inkscape:cy="8"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     units="px" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Camada 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-1036.3622)">
-    <path
-       style="fill:#000000;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 2.5498045,1038.912 0,3.3008 3.3007812,0 0,-3.3008 -3.3007812,0 z m 3.8007812,0 0,3.3008 3.2988282,0 0,-3.3008 -3.2988282,0 z m 3.7988283,0 0,3.3008 3.300782,0 0,-3.3008 -3.300782,0 z m -7.5996095,3.8008 0,3.2988 3.3007812,0 0,-3.2988 -3.3007812,0 z m 3.8007812,0 0,3.2988 3.2988282,0 0,-3.2988 -3.2988282,0 z m 3.7988283,0 0,3.2988 3.300782,0 0,-3.2988 -3.300782,0 z m -7.5996095,3.7988 0,3.3008 3.3007812,0 0,-3.3008 -3.3007812,0 z m 3.8007812,0 0,3.3008 3.2988282,0 0,-3.3008 -3.2988282,0 z m 3.7988283,0 0,3.3008 3.300782,0 0,-3.3008 -3.300782,0 z"
-       id="rect3334"
-       inkscape:connector-curvature="0" />
-  </g>
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 16 16">
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1" transform="translate(0 -1036.4)">
+  <path id="rect3334" fill-rule="evenodd" d="m2.5498 1038.9v3.3008h3.3008v-3.3008h-3.3008zm3.8008 0v3.3008h3.2988v-3.3008h-3.2988zm3.7988 0v3.3008h3.3008v-3.3008h-3.3008zm-7.5996 3.8008v3.2988h3.3008v-3.2988h-3.3008zm3.8008 0v3.2988h3.2988v-3.2988h-3.2988zm3.7988 0v3.2988h3.3008v-3.2988h-3.3008zm-7.5996 3.7988v3.3008h3.3008v-3.3008h-3.3008zm3.8008 0v3.3008h3.2988v-3.3008h-3.2988zm3.7988 0v3.3008h3.3008v-3.3008h-3.3008z"/>
+ </g>
 </svg>

@@ -1,57 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   viewBox="0 0 16 16"
-   version="1.1"
-   width="16"
-   height="16"
-   id="svg2"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="eisner.svg">
-  <sodipodi:namedview
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1"
-     objecttolerance="10"
-     gridtolerance="10"
-     guidetolerance="10"
-     inkscape:pageopacity="0"
-     inkscape:pageshadow="2"
-     inkscape:window-width="1366"
-     inkscape:window-height="705"
-     id="namedview22"
-     showgrid="false"
-     inkscape:zoom="33.625"
-     inkscape:cx="4.2934271"
-     inkscape:cy="8.769042"
-     inkscape:window-x="-8"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="svg2" />
-  <metadata
-     id="metadata27">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <defs
-     id="defs25" />
-  <path
-     style="fill:#000000"
-     d="M 8,1.4003906 3.1992188,2.5996094 2.5234375,8.0078125 0.80078125,8.1992188 0,9 16,9 15.199219,8.1992188 13.476562,8.0078125 12.800781,2.5996094 Z m 0,4 4.710938,0.5234375 0.253906,2.0273438 L 8,7.4003906 3.0351562,7.9511719 3.2890625,5.9238281 Z M 5.1992188,9.8007812 c -1.5452282,5.54e-4 -2.7978225,1.0739568 -2.7988282,2.3984378 -2.513e-4,1.325244 1.2527109,2.399835 2.7988282,2.40039 1.54688,3.7e-4 2.8010326,-1.074493 2.8007812,-2.40039 -2.514e-4,1.325897 1.253901,2.40076 2.800781,2.40039 1.546117,-5.55e-4 2.799079,-1.075147 2.798828,-2.40039 -0.001,-1.324481 -1.2536,-2.3978837 -2.798828,-2.3984378 z m 0,1.1992188 c 0.8838591,-6.47e-4 1.6009876,0.536324 1.6015624,1.199219 8.647e-4,0.663657 -0.716686,1.20182 -1.6015624,1.201172 C 4.3151052,13.400229 3.5987459,12.862304 3.5996094,12.199219 3.6001841,11.536897 4.3161222,11.000162 5.1992188,11 Z m 5.6015622,0 c 0.883097,1.61e-4 1.599035,0.536897 1.59961,1.199219 8.64e-4,0.663085 -0.715496,1.201011 -1.59961,1.201172 C 9.9159046,13.401039 9.1983541,12.862876 9.1992188,12.199219 9.1997936,11.536325 9.916922,10.999353 10.800781,11 Z"
-     id="ellipse4172"
-     inkscape:connector-curvature="0"
-     sodipodi:nodetypes="ccccccccccccccccccccccccccccccccccc" />
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="16" width="16" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 16 16">
+ <metadata id="metadata27">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path id="ellipse4172" d="m8 1.4004-4.8008 1.1992-0.6758 5.4082-1.7226 0.1914-0.8008 0.8008h16l-0.801-0.8008-1.722-0.1914-0.676-5.4082zm0 4 4.7109 0.52344 0.25391 2.0273l-4.965-0.5507-4.9648 0.5508 0.2539-2.0274zm-2.8008 4.4004c-1.5452 0.000554-2.7978 1.074-2.7988 2.3984-0.0002513 1.3252 1.2527 2.3998 2.7988 2.4004 1.5469 0.00037 2.801-1.0745 2.8008-2.4004-0.0002514 1.3259 1.2539 2.4008 2.8008 2.4004 1.5461-0.000555 2.7991-1.0751 2.7988-2.4004-0.001-1.3245-1.2536-2.3979-2.7988-2.3984zm0 1.1992c0.88386-0.000647 1.601 0.53632 1.6016 1.1992 0.0008647 0.66366-0.71669 1.2018-1.6016 1.2012-0.8841 0-1.6005-0.538-1.5996-1.201 0.0006-0.662 0.7165-1.199 1.5996-1.199zm5.6016 0c0.8831 0.000161 1.599 0.5369 1.5996 1.1992 0.000864 0.66308-0.7155 1.201-1.5996 1.2012-0.8851 0.001-1.6026-0.537-1.6018-1.201 0.0006-0.663 0.7177-1.2 1.6018-1.199z"/>
 </svg>
