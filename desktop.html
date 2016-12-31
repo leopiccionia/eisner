@@ -36,7 +36,7 @@
 					<span class="icon-eisner"></span>
 					<span class="icon-1page" v-on:click="single_page()"></span>
 					<span class="icon-2pages" v-on:click="double_page()"></span>
-					<span v-on:click="continuous()">Continuous</span>
+					<span class="icon-continuous" v-on:click="continuous()"></span>
 					<span class="icon-thumbs" v-on:click="thumbs()"></span>
 					<progress v-bind:value="current_page" v-bind:max="max_page"></progress>
 					{{current_page}}/{{max_page}}

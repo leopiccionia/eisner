@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?8mi38d');
-  src:  url('fonts/icomoon.eot?8mi38d#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?8mi38d') format('truetype'),
-    url('fonts/icomoon.woff?8mi38d') format('woff'),
-    url('fonts/icomoon.svg?8mi38d#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?8hneac');
+  src:  url('fonts/icomoon.eot?8hneac#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?8hneac') format('truetype'),
+    url('fonts/icomoon.woff?8hneac') format('woff'),
+    url('fonts/icomoon.svg?8hneac#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -24,16 +24,25 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-eisner:before {
+.icon-1page:before {
   content: "\e900";
 }
-.icon-1page:before {
+.icon-2pages:before {
   content: "\e901";
 }
-.icon-thumbs:before {
+.icon-continuous:before {
   content: "\e902";
 }
-.icon-2pages:before {
+.icon-desktop:before {
   content: "\e903";
+}
+.icon-eisner:before {
+  content: "\e904";
+}
+.icon-mobile:before {
+  content: "\e905";
+}
+.icon-thumbs:before {
+  content: "\e906";
 }
 
