@@ -1,0 +1,8 @@
+
+.icon-1page:before { content: '\e800'; } /* '' */
+.icon-2pages:before { content: '\e801'; } /* '' */
+.icon-continuous:before { content: '\e802'; } /* '' */
+.icon-desktop:before { content: '\e803'; } /* '' */
+.icon-eisner:before { content: '\e804'; } /* '' */
+.icon-mobile:before { content: '\e805'; } /* '' */
+.icon-thumbs:before { content: '\e806'; } /* '' */

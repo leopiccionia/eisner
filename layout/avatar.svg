@@ -5,11 +5,35 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    viewBox="0 0 600.00001 600.00001"
    version="1.1"
    width="600"
    height="600"
-   id="svg2">
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="avatar2.svg">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     id="namedview22"
+     showgrid="false"
+     inkscape:zoom="0.89666667"
+     inkscape:cx="-28.996281"
+     inkscape:cy="317.83154"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
   <metadata
      id="metadata27">
     <rdf:RDF>
@@ -18,98 +42,90 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <defs
      id="defs25" />
-  <g
-     transform="translate(0 -452.36)"
-     id="layer1">
-    <rect
-       fill="#fff"
-       x="0"
-       y="452.36"
-       width="600"
-       height="600"
-       id="rect3345" />
-    <ellipse
-       fill="#1a1a1a"
-       cx="-387.5"
-       cy="839.86"
-       transform="scale(-1,1)"
-       ry="75"
-       rx="87.5"
-       id="ellipse4172" />
-    <g
-       fill-rule="evenodd"
-       id="g6">
-      <path
-         fill="#6c6753"
-         d="m125 739.86h350l-25-200-150-37.5-150 37.5z"
-         id="path4136" />
-      <path
-         fill="#1a1a1a"
-         d="m300 627.36-163.21 18.14-11.79 94.36h350l-11.79-94.36-163.21-18.14z"
-         id="path4159" />
-      <path
-         fill="#6c6753"
-         d="m50 739.86 25-25 225-25 225 25 25 25z"
-         id="path4138" />
-    </g>
-    <g
-       id="g11">
-      <ellipse
-         cx="212.5"
-         cy="839.86"
-         ry="75"
-         rx="87.5"
-         id="path4145" />
-      <rect
-         x="212.5"
-         y="764.86"
-         width="87.5"
-         height="75"
-         id="rect4180" />
-      <path
-         fill="#484537"
-         fill-rule="evenodd"
-         d="m125 739.86h175v-237.5l-150 37.5z"
-         id="path4194" />
-    </g>
-    <path
-       fill-rule="evenodd"
-       d="m300 627.36-163.21 18.14-11.79 94.36h175z"
-       id="path4192" />
-    <g
-       id="g17">
-      <path
-         fill="#484537"
-         fill-rule="evenodd"
-         d="m50 739.86 25-25 225-25v50z"
-         id="path4190" />
-      <rect
-         fill="#1a1a1a"
-         x="300"
-         y="764.86"
-         width="87.5"
-         height="75"
-         id="rect4196" />
-      <ellipse
-         fill="#fff"
-         cx="212.5"
-         cy="839.86"
-         ry="37.5"
-         rx="50"
-         id="path4151" />
-      <ellipse
-         fill="#fff"
-         cx="387.5"
-         cy="839.86"
-         ry="37.5"
-         rx="50"
-         id="ellipse4182" />
-    </g>
-  </g>
+  <rect
+     style="fill:#ffffff"
+     id="rect3345"
+     height="600"
+     width="600"
+     y="-1.4648437e-005"
+     x="0" />
+  <ellipse
+     style="fill:#1a1a1a;fill-opacity:1"
+     id="ellipse4172"
+     rx="87.5"
+     ry="75"
+     transform="scale(-1,1)"
+     cy="387.5"
+     cx="-387.5" />
+  <path
+     d="m 125,287.5 350,0 L 450,87.5 300,50 150,87.5 Z"
+     id="path4136"
+     inkscape:connector-curvature="0"
+     style="fill:#214478;fill-rule:evenodd" />
+  <path
+     d="M 300,175 136.79,193.14 125,287.5 475,287.5 463.21,193.14 300,175 Z"
+     id="path4159"
+     inkscape:connector-curvature="0"
+     style="fill:#1a1a1a;fill-rule:evenodd;fill-opacity:1" />
+  <path
+     d="m 50,287.5 25,-25 225,-25 225,25 25,25 z"
+     id="path4138"
+     inkscape:connector-curvature="0"
+     style="fill:#214478;fill-rule:evenodd" />
+  <ellipse
+     cx="212.5"
+     cy="387.5"
+     ry="75"
+     rx="87.5"
+     id="path4145"
+     style="fill:#000000;fill-opacity:1" />
+  <rect
+     x="212.5"
+     y="312.5"
+     width="87.5"
+     height="75"
+     id="rect4180"
+     style="fill:#000000;fill-opacity:1" />
+  <path
+     d="m 125,287.5 175,0 L 300,50 150,87.5 Z"
+     id="path4194"
+     inkscape:connector-curvature="0"
+     style="fill:#162d50;fill-rule:evenodd" />
+  <path
+     style="fill-rule:evenodd;fill:#000000;fill-opacity:1"
+     inkscape:connector-curvature="0"
+     id="path4192"
+     d="M 300,175 136.79,193.14 125,287.5 l 175,0 z" />
+  <path
+     d="m 50,287.5 25,-25 225,-25 0,50 z"
+     id="path4190"
+     inkscape:connector-curvature="0"
+     style="fill:#162d50;fill-rule:evenodd" />
+  <rect
+     x="300"
+     y="312.5"
+     width="87.5"
+     height="75"
+     id="rect4196"
+     style="fill:#1a1a1a;fill-opacity:1" />
+  <ellipse
+     cx="212.5"
+     cy="387.5"
+     ry="37.5"
+     rx="50"
+     id="path4151"
+     style="fill:#ffffff" />
+  <ellipse
+     cx="387.5"
+     cy="387.5"
+     ry="37.5"
+     rx="50"
+     id="ellipse4182"
+     style="fill:#ffffff" />
 </svg>

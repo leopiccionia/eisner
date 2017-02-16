@@ -1,0 +1,24 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="1page" unicode="&#xe800;" d="M258 694v-688h484v500h-187v188z m328 0v-156h156z" horiz-adv-x="1000" />
+
+<glyph glyph-name="2pages" unicode="&#xe801;" d="M156 694l-156-156h156v156z m32 0v-188h-188v-500h484v688h-296z m328 0v-688h484v500h-187v188h-297z m328 0v-156h156l-156 156z" horiz-adv-x="1000" />
+
+<glyph glyph-name="continuous" unicode="&#xe802;" d="M258 850v-687h203v93h78v-93h203v500h-187v187z m328 0v-156h156z m-328-719v-281h484v281h-203v-61h72l-111-111-110 111h71v61z" horiz-adv-x="1000" />
+
+<glyph glyph-name="desktop" unicode="&#xe803;" d="M156 694v-531h688v531z m63-63h562v-406h-562z m-63-500l-156-219h1000l-156 219z" horiz-adv-x="1000" />
+
+<glyph glyph-name="eisner" unicode="&#xe804;" d="M500 763l-300-75-42-338-108-12-50-50h1000l-50 50-107 12-43 338z m0-250l294-33 16-127-310 35-310-35 16 127z m-175-275c-97 0-175-68-175-150 0-83 78-151 175-151 97 0 175 68 175 151 0-83 78-151 175-151 97 0 175 68 175 151 0 82-78 149-175 150z m0-75c55 0 100-34 100-75 0-42-45-76-100-76-55 0-100 34-100 75 0 42 45 75 100 75z m350 0c55 0 100-34 100-75 0-42-45-75-100-75-55 0-100 33-100 75 0 41 45 75 100 75z" horiz-adv-x="1000" />
+
+<glyph glyph-name="mobile" unicode="&#xe805;" d="M234 756v-781h532v781h-532z m63-62h406v-563h-406v563z m203-594a47 47 0 0 0 47-47 47 47 0 0 0-47-47 47 47 0 0 0-47 47 47 47 0 0 0 47 47z" horiz-adv-x="1000" />
+
+<glyph glyph-name="thumbs" unicode="&#xe806;" d="M159 694v-206h207v206h-207z m238 0v-206h206v206h-206z m237 0v-206h207v206h-207z m-475-238v-206h207v206h-207z m238 0v-206h206v206h-206z m237 0v-206h207v206h-207z m-475-237v-206h207v206h-207z m238 0v-206h206v206h-206z m237 0v-206h207v206h-207z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
