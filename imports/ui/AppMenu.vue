@@ -4,7 +4,9 @@
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-menu-collapse" aria-expanded="false">
 				&#9776;
 			</button>
-			<router-link class="navbar-brand" to="/">Eisner</router-link>
+			<router-link class="navbar-brand" to="/">
+				<img src="/img/logo_transparent.svg"/>
+			</router-link>
 		</div>
 
 		<div id="app-menu-collapse" class="collapse navbar-collapse">
@@ -36,5 +38,13 @@
 	ul.nav li:hover a{
 		background-color: #EEE;
 		color: #E12;
+	}
+
+	.navbar-brand {
+		vertical-align: middle;
+	}
+
+	.navbar-brand img {
+		height: 32px;
 	}
 </style>
