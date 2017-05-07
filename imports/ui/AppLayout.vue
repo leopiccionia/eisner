@@ -1,7 +1,9 @@
 <template>
 	<div class="app-layout">
 		<app-menu></app-menu>
-		<router-view></router-view>
+		<div class="wrapper">
+			<router-view></router-view>
+		</div>
 	</div>
 </template>
 
@@ -25,5 +27,9 @@ export default {
 
 	:not(app-menu) {
 		position: relative;
+	}
+
+	.wrapper{
+		height: 100vh;
 	}
 </style>

@@ -12,6 +12,7 @@
 		<div id="app-menu-collapse" class="collapse navbar-collapse">
 			<ul class="nav navbar-nav">
 				<li><router-link to="add">Add</router-link></li>
+				<li><router-link to="demo">Demo</router-link></li>
 			</ul>
 		</div>
 	</nav>

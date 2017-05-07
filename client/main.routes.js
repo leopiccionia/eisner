@@ -8,5 +8,10 @@ export default [
 		path: '/add',
 		name: 'add',
 		component: '/imports/ui/AddEdition.vue'
+	},
+	{
+		path: '/demo',
+		name: 'demo',
+		component: '/imports/ui/Demo.vue'
 	}
 ];
