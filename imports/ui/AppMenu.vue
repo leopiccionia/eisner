@@ -2,7 +2,7 @@
 	<nav class="navbar navbar-default navbar-static-top" placement="top">
 		<div class="navbar-header">
 			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-menu-collapse" aria-expanded="false">
-				&#9776;
+				<i class="glyphicon glyphicon-menu-hamburger"></i>
 			</button>
 			<router-link class="navbar-brand" to="/">
 				<img src="/img/logo_transparent.svg"/>
