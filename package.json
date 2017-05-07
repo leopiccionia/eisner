@@ -1,0 +1,22 @@
+{
+  "name": "eisner",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "babel-runtime": "^6.23.0",
+    "meteor-node-stubs": "~0.2.4",
+    "vue": "^2.3.2",
+    "vue-meteor-tracker": "^1.2.1",
+    "vue-router": "^2.5.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "eslint": "^3.19.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-html": "^2.0.3",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}
