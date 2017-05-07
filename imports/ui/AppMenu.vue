@@ -18,11 +18,7 @@
 </template>
 
 <script>
-	export default {
-		ready: () => {
-
-		}
-	};
+	export default {};
 </script>
 
 <style scoped>

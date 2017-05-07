@@ -1,7 +1,6 @@
 <template>
 	<div class="app-layout">
 		<app-menu></app-menu>
-		<h1>Eisner</h1>
 		<router-view></router-view>
 	</div>
 </template>
