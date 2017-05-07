@@ -27,7 +27,7 @@
 
 <style scoped>
 	nav {
-		background-color: #E12;
+		background-color: #E42;
 		color: #FFF;
 	}
 
@@ -37,7 +37,7 @@
 
 	ul.nav li:hover a{
 		background-color: #EEE;
-		color: #E12;
+		color: #E42;
 	}
 
 	.navbar-brand {
