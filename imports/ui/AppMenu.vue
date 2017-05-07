@@ -5,7 +5,7 @@
 				<i class="glyphicon glyphicon-menu-hamburger"></i>
 			</button>
 			<router-link class="navbar-brand" to="/">
-				<img src="/img/logo_transparent.svg"/>
+				<img src="/img/icon_transparent.svg"/>
 			</router-link>
 		</div>
 
