@@ -1,5 +1,6 @@
 <template>
 	<div class="mobile-display">
+		<p>{{title}} # {{edition}}, page {{page}}/{{max_page}}</p>
 		<img class="text-center" :src="url(page)"/>
 		<div id="previous" @click="previous()"></div>
 		<div id="next" @click="next()"></div>
