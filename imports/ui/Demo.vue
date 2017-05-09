@@ -1,40 +1,56 @@
-<template>
-	<div>
-		<demo-mobile></demo-mobile>
-		<demo-desktop></demo-desktop>
-	</div>
+<template lang="pug">
+.demo(v-touch:swipeleft='previous', v-touch:swiperight='next')
+	p {{title}} # {{edition}}, page {{page}}/{{max_page}}
+	img.text-center(:src='url(page)')
+	#previous(@click='previous()')
+	#next(@click='next()')
 </template>
 
 <script>
-	import DemoDesktop from '/imports/ui/DemoDesktop.vue';
-	import DemoMobile from '/imports/ui/DemoMobile.vue';
-
 	export default {
-		components: {
-			DemoDesktop,
-			DemoMobile
+		data() {
+			return {
+				title: 'Baseball Comics',
+				edition: 1,
+				page: 1,
+				max_page: 32
+			};
+		},
+		methods: {
+			previous() {
+				if (this.page > 1)
+					this.page -= 1;
+			},
+			next() {
+				if(this.page < this.max_page)
+					this.page += 1;
+			},
+			url: (n) => (n < 10) ? '/img/baseball-comics-001/0' + n + '.png' : '/img/baseball-comics-001/' + n + '.png'
 		}
-	}
+	};
 </script>
 
 <style scoped>
-	@media screen and (max-width: 699px) {
-		.mobile-display {
-			display: initial;
-		}
-
-		.desktop-display {
-			display: none;
-		}
+	.demo {
+		text-align: center;
 	}
 
-	@media screen and (min-width: 700px) {
-		.mobile-display {
-			display: none;
-		}
+	img {
+		max-width: 100vw;
+	}
 
-		.desktop-display {
-			display: initial;
-		}
+	#previous, #next {
+		position: absolute;
+		height: 100%;
+		width: 35%;
+		top: 0;
+	}
+
+	#previous {
+		left: 0;
+	}
+
+	#next {
+		left: 65%;
 	}
 </style>

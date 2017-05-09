@@ -1,5 +1,5 @@
 <template>
-	<div class="mobile-display">
+	<div class="mobile-display" v-touch:swipeleft="previous" v-touch:swiperight="next">
 		<p>{{title}} # {{edition}}, page {{page}}/{{max_page}}</p>
 		<img class="text-center" :src="url(page)"/>
 		<div id="previous" @click="previous()"></div>

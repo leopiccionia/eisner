@@ -2,6 +2,7 @@ akryum:npm-check@0.0.3
 akryum:vue-component@0.9.0
 akryum:vue-component-dev-client@0.2.11
 akryum:vue-component-dev-server@0.0.9
+akryum:vue-pug@0.0.2
 akryum:vue-router2@0.1.0
 akryum:vuex@0.4.1
 allow-deny@1.0.5

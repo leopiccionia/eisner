@@ -21,3 +21,4 @@ akryum:vue-component
 akryum:vue-router2
 twbs:bootstrap
 akryum:vuex
+akryum:vue-pug

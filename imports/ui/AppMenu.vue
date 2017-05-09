@@ -1,21 +1,33 @@
-<template>
-	<nav class="navbar navbar-default navbar-static-top" placement="top">
-		<div class="navbar-header">
-			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-menu-collapse" aria-expanded="false">
-				<i class="glyphicon glyphicon-menu-hamburger"></i>
-			</button>
-			<router-link class="navbar-brand" to="/">
-				<img src="/img/icon_transparent.svg"/>
-			</router-link>
-		</div>
-
-		<div id="app-menu-collapse" class="collapse navbar-collapse">
-			<ul class="nav navbar-nav">
-				<li><router-link to="add">Add</router-link></li>
-				<li><router-link to="demo">Demo</router-link></li>
-			</ul>
-		</div>
-	</nav>
+<template lang="pug">
+nav.navbar.navbar-default.navbar-static-top(placement='top')
+	.navbar-header
+		button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#app-menu-collapse')
+			i.glyphicon.glyphicon-menu-hamburger
+		router-link.navbar-brand(to='/')
+			img(src='/img/icon_transparent.svg')
+	#app-menu-collapse.collapse.navbar-collapse
+		ul.nav.navbar-nav
+			li
+				router-link(to='add') Add
+			li
+				router-link(to='demo') Demo
+//	<nav class="navbar navbar-default navbar-static-top" placement="top">
+//		<div class="navbar-header">
+//			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#app-menu-collapse" aria-expanded="false">
+//				<i class="glyphicon glyphicon-menu-hamburger"></i>
+//			</button>
+//			<router-link class="navbar-brand" to="/">
+//				<img src="/img/icon_transparent.svg"/>
+//			</router-link>
+//		</div>
+//
+//		<div id="app-menu-collapse" class="collapse navbar-collapse">
+//			<ul class="nav navbar-nav">
+//				<li><router-link to="add">Add</router-link></li>
+//				<li><router-link to="demo">Demo</router-link></li>
+//			</ul>
+//		</div>
+//	</nav>
 </template>
 
 <script>
