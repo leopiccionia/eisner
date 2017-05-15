@@ -1,9 +1,10 @@
 <template lang="pug">
-.demo(v-touch:swipeleft='previous', v-touch:swiperight='next')
+.demo
 	p {{title}} # {{edition}}, page {{page}}/{{max_page}}
-	img.text-center(:src='url(page)')
-	#previous(@click='previous()')
-	#next(@click='next()')
+	v-touch(@swiperight='previous', @swipeleft='next')
+		img.text-center(:src='url(page)')
+		#previous(@click='previous()')
+		#next(@click='next()')
 </template>
 
 <script>
